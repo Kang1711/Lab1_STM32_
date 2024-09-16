@@ -104,7 +104,6 @@ int main(void)
 	  display7SEG (num++); //Ex4
 	  HAL_Delay(1000);
 	  counter++;
-	  //Hello
 	  if(counter >= 10) counter = 0;
     /* USER CODE END WHILE */
 
