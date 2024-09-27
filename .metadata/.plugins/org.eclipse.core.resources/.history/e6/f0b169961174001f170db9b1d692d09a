@@ -69,7 +69,7 @@ void displayClock(int hour, int minute, int second) { //Ex10
 }
 void Clock(int number) { //Ex10
 	second = number;
-    if (second >= 59) {
+    if (second >= 60) {
         second = 0;
         minute++;
     }

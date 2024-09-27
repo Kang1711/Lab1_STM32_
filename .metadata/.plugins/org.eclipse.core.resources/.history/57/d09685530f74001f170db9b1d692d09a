@@ -98,10 +98,10 @@ int main(void)
 	  Ex6(index);
 	  	  index++;
 	  	  if(index>=12) index=0;
-	  	  Clock(number++); //Ex10
-	  	  //number++;
-	  	  if(number>=60) number=0;
-	  	  HAL_Delay(100);
+	  	  Clock(number); //Ex10
+	  	  number++;
+	  	  if(number>60) number=0;
+	  	  HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

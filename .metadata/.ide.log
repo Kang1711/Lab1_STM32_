@@ -946,3 +946,306 @@
 2024-09-16 16:01:53,636 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1693mS.
 2024-09-16 16:01:53,637 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
 2024-09-16 16:01:53,638 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-16 16:11:22,131 [INFO] MainUpdater:2671 - connection check result : 10
+2024-09-16 16:11:22,246 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to false
+2024-09-16 16:11:22,288 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\Ngo Truc Linh\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2024-09-16 16:11:22,289 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2024-09-16 16:11:22,289 [INFO] MultiScanPanel:201 - Proxy status is invalid
+2024-09-16 16:11:22,289 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2024-09-16 16:11:22,539 [INFO] DetailPanel:309 - Set advertising image to C:/Users/Ngo Truc Linh/STM32Cube/Repository/\en.prom-stm32h7rs-mcu-finder.jpg
+2024-09-16 16:11:48,733 [INFO] MainUpdater:2671 - connection check result : 10
+2024-09-16 16:11:48,733 [INFO] MainUpdater:2671 - connection check result : 10
+2024-09-16 16:11:48,768 [INFO] MicroXplorer:448 - Change Database Path : 
+2024-09-16 16:11:48,768 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2024-09-16 16:11:48,768 [WARN] ThirdParty:813 - waiting for thirdparty lock release [close project]
+2024-09-16 16:11:48,768 [INFO] ThirdParty:815 - entering critical section [close project]
+2024-09-16 16:11:48,768 [INFO] ThirdParty:825 - exiting critical section [close project]
+2024-09-16 16:11:48,769 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2024-09-16 16:11:48,770 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 937679504 Bytes (1073741824)
+2024-09-16 16:11:48,771 [INFO] MicroXplorer:448 - Change Database Path : 
+2024-09-16 16:11:48,771 [INFO] MicroXplorer:478 - Change Database Version : DB.6.0.30
+2024-09-16 16:11:48,771 [INFO] OpenFileManager:313 - Change cursor
+2024-09-16 16:11:48,781 [INFO] RulesReader:57 - Compatibility file has been processed (242 Rules)
+2024-09-16 16:11:49,159 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2024-09-16 16:11:49,241 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2024-09-16 16:11:49,242 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2024-09-16 16:11:49,242 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2024-09-16 16:11:49,250 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-09-16 16:11:49,251 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-09-16 16:11:49,251 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.6.0.0: no header file found
+2024-09-16 16:11:49,252 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.7.0.0: no header file found
+2024-09-16 16:11:49,253 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.7.0.0: no header file found
+2024-09-16 16:11:49,253 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.7.0.0: no header file found
+2024-09-16 16:11:49,255 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC06A1' from pack STMicroelectronics.X-CUBE-NFC6.3.1.0: no header file found
+2024-09-16 16:11:49,255 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC08A1' from pack STMicroelectronics.X-CUBE-NFC6.3.1.0: no header file found
+2024-09-16 16:11:49,402 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.11.0.0: no header file found
+2024-09-16 16:11:49,403 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.11.0.0: no header file found
+2024-09-16 16:11:49,403 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS4A1' from pack STMicroelectronics.X-CUBE-MEMS1.11.0.0: no header file found
+2024-09-16 16:11:49,406 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2024-09-16 16:11:49,406 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2024-09-16 16:11:49,406 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2024-09-16 16:11:49,406 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2024-09-16 16:11:49,406 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2024-09-16 16:11:49,407 [WARN] ApiManager:304 - Cannot register API 'Board Extension:STSAFEA1' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-09-16 16:11:49,408 [WARN] ApiManager:304 - Cannot register API 'Board Part:STSAFEA110' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-09-16 16:11:49,408 [WARN] ApiManager:304 - Cannot register API 'Security:ST_Cryptolib' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-09-16 16:11:49,408 [WARN] ApiManager:304 - Cannot register API 'Security:MbedTLS' from pack STMicroelectronics.X-CUBE-SAFEA1.1.2.2: no header file found
+2024-09-16 16:11:49,408 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.3.0.0: no header file found
+2024-09-16 16:11:49,411 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-09-16 16:11:49,411 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-09-16 16:11:49,411 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2024-09-16 16:11:49,413 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.7.0.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Extension:PGEEZ1' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEICA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Part:M24' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Part:M95' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Part:M95P32' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Part:M24256E-F' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'Board Part:M24M01E-F' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'PGEEZ1:SPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ApiManager:304 - Cannot register API 'PGEEZ1:QDSPI' from pack STMicroelectronics.X-CUBE-EEPRMA1.5.1.0: no header file found
+2024-09-16 16:11:49,414 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,414 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,414 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,415 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,416 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2024-09-16 16:11:49,417 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.1: no header file found
+2024-09-16 16:11:49,421 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-09-16 16:11:49,421 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-09-16 16:11:49,421 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0: no header file found
+2024-09-16 16:11:49,421 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.3.0: no header file found
+2024-09-16 16:11:50,845 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 944597456 Bytes (1073741824)
+2024-09-16 16:11:50,845 [WARN] ThirdParty:779 - waiting for thirdparty lock release [change project]
+2024-09-16 16:11:50,845 [INFO] ThirdParty:781 - entering critical section [change project]
+2024-09-16 16:11:50,845 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2024-09-16 16:11:50,845 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2024-09-16 16:11:50,845 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2024-09-16 16:11:50,845 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2024-09-16 16:11:50,846 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.2
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.4.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2024-09-16 16:11:50,847 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2024-09-16 16:11:50,848 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2024-09-16 16:11:50,848 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2024-09-16 16:11:50,848 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2024-09-16 16:11:50,848 [INFO] ThirdParty:967 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2024-09-16 16:11:50,848 [INFO] ThirdParty:967 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2024-09-16 16:11:50,848 [INFO] ThirdParty:787 - exiting critical section [change project]
+2024-09-16 16:11:50,930 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2024-09-16 16:11:50,931 [INFO] PinOutPanel:1463 - setPackage(STM32F103C6Ux,UFQFPN48)
+2024-09-16 16:11:51,093 [INFO] UtilMem:74 - Before build in PCC Used Memory: 864552232 Bytes (1073741824)
+2024-09-16 16:11:51,245 [INFO] UtilMem:74 - After build in PCC Used Memory: 932709672 Bytes (1073741824)
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,266 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,268 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,269 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,270 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2024-09-16 16:11:51,279 [INFO] OpenFileManager:333 - Restore cursor
+2024-09-16 16:11:51,490 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 904068480 Bytes (1073741824)
+2024-09-16 16:11:51,515 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 917897192 Bytes (1073741824)
+2024-09-16 16:11:51,733 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-09-16 16:11:51,733 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-09-16 16:11:51,733 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-09-16 16:11:51,734 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-09-16 16:11:51,953 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\license.tmp_save
+2024-09-16 16:11:52,026 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\license.tmp
+2024-09-16 16:11:52,047 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_it.c_save
+2024-09-16 16:11:52,091 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_it.c
+2024-09-16 16:11:52,093 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_it.h_save
+2024-09-16 16:11:52,153 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_it.h
+2024-09-16 16:11:52,159 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_hal_msp.c_save
+2024-09-16 16:11:52,218 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_hal_msp.c
+2024-09-16 16:11:52,220 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\system.tmp_save
+2024-09-16 16:11:52,259 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\system.tmp
+2024-09-16 16:11:52,263 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-09-16 16:11:52,307 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_hal_conf.h
+2024-09-16 16:11:52,324 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\main.h_save
+2024-09-16 16:11:52,370 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\main.h
+2024-09-16 16:11:52,372 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\main.c_save
+2024-09-16 16:11:52,431 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\main.c
+2024-09-16 16:11:53,049 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 55mS.
+2024-09-16 16:11:53,053 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-09-16 16:11:53,665 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-09-16 16:11:53,671 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2024-09-16 16:11:53,693 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2024-09-16 16:11:53,712 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2024-09-16 16:11:55,893 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2840mS.
+2024-09-16 16:11:55,894 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-16 16:11:55,896 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-16 16:11:56,367 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2024-09-16 16:11:56,372 [INFO] ApiDb:276 - Save user favorites file C:\Users\Ngo Truc Linh/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2024-09-16 16:11:56,373 [INFO] ApiDb:280 - User favorites MCUs=[]
+2024-09-16 16:17:30,078 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+2024-09-16 16:17:30,078 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mode.getDiagnostic(Mode.java:1395)
+2024-09-16 16:17:30,079 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.ComboPeriphMode.updateMode(PeriphMode.java:709)
+2024-09-16 16:17:30,081 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:665)
+2024-09-16 16:17:30,082 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:633)
+2024-09-16 16:17:30,083 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:633)
+2024-09-16 16:17:30,084 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:624)
+2024-09-16 16:17:30,086 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.updatePeripheralsTree(PeripheralsSelectionPanel.java:481)
+2024-09-16 16:17:30,087 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.propertyChange(PeripheralsSelectionPanel.java:585)
+2024-09-16 16:17:30,088 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-09-16 16:17:30,089 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-09-16 16:17:30,090 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.propertyChange(MxSystem.java:446)
+2024-09-16 16:17:30,092 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-09-16 16:17:30,093 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-09-16 16:17:30,095 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+2024-09-16 16:17:30,096 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:50)
+2024-09-16 16:17:30,097 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mcu.propertyChange(Mcu.java:1660)
+2024-09-16 16:17:30,098 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-09-16 16:17:30,099 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-09-16 16:17:30,100 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+2024-09-16 16:17:30,101 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:50)
+2024-09-16 16:17:30,102 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Pin.setLocked(Pin.java:830)
+2024-09-16 16:17:30,103 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.gui.PinOutPanel$4.actionPerformed(PinOutPanel.java:367)
+2024-09-16 16:17:30,104 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+2024-09-16 16:17:30,105 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+2024-09-16 16:17:30,106 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+2024-09-16 16:17:30,107 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+2024-09-16 16:17:30,108 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:369)
+2024-09-16 16:17:30,109 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1020)
+2024-09-16 16:17:30,110 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1064)
+2024-09-16 16:17:30,111 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+2024-09-16 16:17:30,112 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2024-09-16 16:17:30,113 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2024-09-16 16:17:30,114 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2024-09-16 16:17:30,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2024-09-16 16:17:30,115 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2024-09-16 16:17:30,116 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2024-09-16 16:17:30,117 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+2024-09-16 16:17:30,119 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+2024-09-16 16:17:30,119 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+2024-09-16 16:17:30,120 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+2024-09-16 16:17:30,121 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+2024-09-16 16:17:30,122 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2024-09-16 16:17:30,123 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+2024-09-16 16:17:30,123 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2024-09-16 16:17:30,124 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2024-09-16 16:17:30,125 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-09-16 16:17:30,126 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-09-16 16:17:30,127 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2024-09-16 16:17:30,128 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-09-16 16:17:30,129 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2024-09-16 16:17:30,129 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-09-16 16:17:30,131 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-09-16 16:17:30,132 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2024-09-16 16:17:30,133 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-09-16 16:17:30,134 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-09-16 16:17:30,135 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-09-16 16:17:30,136 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-09-16 16:17:30,136 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-09-16 16:17:30,137 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-09-16 16:19:39,565 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 848159920 Bytes (1073741824)
+2024-09-16 16:19:41,501 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 870084888 Bytes (1073741824)
+2024-09-16 16:19:43,164 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 949449624 Bytes (1073741824)
+2024-09-16 16:19:43,411 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-09-16 16:19:43,411 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-09-16 16:19:43,411 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-09-16 16:19:43,411 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-09-16 16:19:43,412 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-09-16 16:19:43,656 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\license.tmp_save
+2024-09-16 16:19:43,695 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\license.tmp
+2024-09-16 16:19:43,761 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\gpio.tmp_save
+2024-09-16 16:19:43,801 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\gpio.tmp
+2024-09-16 16:19:43,844 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_it.c_save
+2024-09-16 16:19:43,916 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_it.c
+2024-09-16 16:19:43,919 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_it.h_save
+2024-09-16 16:19:43,967 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_it.h
+2024-09-16 16:19:43,973 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_hal_msp.c_save
+2024-09-16 16:19:44,034 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\stm32f1xx_hal_msp.c
+2024-09-16 16:19:44,036 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\system.tmp_save
+2024-09-16 16:19:44,073 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\MXTmpFiles\system.tmp
+2024-09-16 16:19:44,078 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-09-16 16:19:44,130 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\stm32f1xx_hal_conf.h
+2024-09-16 16:19:44,143 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\main.h_save
+2024-09-16 16:19:44,189 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Inc\main.h
+2024-09-16 16:19:44,193 [INFO] CodeEngine:239 - oldGeneratedFile, D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\main.c_save
+2024-09-16 16:19:44,267 [INFO] CodeEngine:257 - Generated code: D:\Lab_VXL\Lab1_Exercise6_10\Core\Src\main.c
+2024-09-16 16:19:45,115 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 53mS.
+2024-09-16 16:19:45,118 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-09-16 16:19:45,423 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-09-16 16:19:46,864 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 1746mS.
+2024-09-16 16:19:46,865 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-09-16 16:19:46,867 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
