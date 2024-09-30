@@ -12,7 +12,6 @@
 
 #endif /* INC_SOLFWARE_TIMER_H_ */
 #include "main.h"
-
 int timer1_counter=0;
 int timer1_flag=0;
 int timer2_counter=0;
@@ -78,10 +77,10 @@ void setTimer1(int duration){
 	timer1_counter=duration;
 	timer1_flag=0;
 }
-/*void setTimer2(int d){
+void setTimer2(int d){
 	timer2_counter=d;
 	timer2_flag=0;
-}*/
+}
 
 void timerRun(){
 	if (timer1_counter>0){
@@ -118,7 +117,7 @@ void update7SEG(int index) {
             break;
     }
 }
-void updateClockBuffer(int hour, int minute, int second){
+void updateClockBuffer(){
 	if (hour < 10) {
 	        led_buffer[0] = 0;
 	        led_buffer[1] = hour;
