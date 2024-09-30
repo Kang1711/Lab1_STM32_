@@ -1,0 +1,11 @@
+solfware_timer.h:38:6:display7SEG5	24	static
+solfware_timer.h:72:6:clearC	8	static
+solfware_timer.h:81:6:setTimer1	16	static
+solfware_timer.h:85:6:setTimer2	16	static
+solfware_timer.h:90:6:timerRun	4	static
+main.c:68:5:main	8	static
+main.c:127:6:SystemClock_Config	72	static
+main.c:163:13:MX_TIM2_Init	32	static
+main.c:208:13:MX_GPIO_Init	32	static
+main.c:242:6:HAL_TIM_PeriodElapsedCallback	16	static
+main.c:253:6:Error_Handler	4	static,ignoring_inline_asm
