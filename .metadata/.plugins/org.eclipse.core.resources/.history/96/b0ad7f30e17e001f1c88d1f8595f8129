@@ -16,8 +16,7 @@ int timer1_counter=0;
 int timer1_flag=0;
 int timer2_counter=0;
 int timer2_flag=0;
-const int MAX_LED = 4;
-int led_buffer[4] = {1, 2, 3, 4};
+
 const uint8_t segment_p[10] = {
     0b00111111,
     0b00000110,
@@ -95,25 +94,4 @@ void timerRun(){
 				timer2_flag=1;
 			}
 	}
-}
-void update7SEG(int index) {
-    if (index < 0 || index >= MAX_LED) {
-        return;
-    }
-    switch (index) {
-        case 0:
-            display7SEG5(led_buffer[0]);
-            break;
-        case 1:
-            display7SEG5(led_buffer[1]);
-            break;
-        case 2:
-            display7SEG5(led_buffer[2]);
-            break;
-        case 3:
-            display7SEG5(led_buffer[3]);
-            break;
-        default:
-            break;
-    }
 }
