@@ -1,0 +1,11 @@
+traffic.c:21:6:display_7SEG	16	static
+traffic.c:40:6:set_traffic	8	static
+traffic.c:52:6:setGR	8	static
+traffic.c:56:6:setRC	8	static
+traffic.c:60:6:setRR	8	static
+traffic.c:64:6:setYR	8	static
+traffic.c:68:6:setGC	8	static
+traffic.c:73:6:tatLED	8	static
+traffic.c:76:6:setYC	8	static
+traffic.c:81:6:display7_B	16	static
+traffic.c:122:6:display7_A	16	static

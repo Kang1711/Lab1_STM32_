@@ -1,0 +1,23 @@
+10:12:26 **** Incremental Build of configuration Debug for project Lab3_VXL ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/fsm_system.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_system.d" -MT"Core/Src/fsm_system.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_system.o"
+arm-none-eabi-gcc -o "Lab3_VXL.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Lab_VXL\Lab3_VXL\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab3_VXL.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Lab3_VXL.elf
+ 
+arm-none-eabi-size   Lab3_VXL.elf 
+arm-none-eabi-objdump -h -S  Lab3_VXL.elf  > "Lab3_VXL.list"
+arm-none-eabi-objcopy  -O ihex  Lab3_VXL.elf  "Lab3_VXL.hex"
+arm-none-eabi-objcopy  -O binary  Lab3_VXL.elf  "Lab3_VXL.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11040	    100	   1772	  12912	   3270	Lab3_VXL.elf
+Finished building: default.size.stdout
+ 
+Finished building: Lab3_VXL.hex
+Finished building: Lab3_VXL.bin
+ 
+ 
+Finished building: Lab3_VXL.list
+ 
+
+10:12:27 Build Finished. 0 errors, 0 warnings. (took 1s.138ms)
+

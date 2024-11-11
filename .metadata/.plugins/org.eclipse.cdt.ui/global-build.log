@@ -1,20 +1,20 @@
-16:46:58 **** Incremental Build of configuration Debug for project Lab2_Ex2 ****
+16:27:24 **** Incremental Build of configuration Debug for project LAB3 ****
 make -j12 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Lab2_Ex2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Lab_VXL\Lab2_Ex2\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Lab2_Ex2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Lab2_Ex2.elf
+arm-none-eabi-gcc "../Core/Src/fsm_system.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_system.d" -MT"Core/Src/fsm_system.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_system.o"
+arm-none-eabi-gcc -o "LAB3.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\Lab_VXL\LAB3\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LAB3.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LAB3.elf
  
-arm-none-eabi-size   Lab2_Ex2.elf 
-arm-none-eabi-objdump -h -S  Lab2_Ex2.elf  > "Lab2_Ex2.list"
-arm-none-eabi-objcopy  -O ihex  Lab2_Ex2.elf  "Lab2_Ex2.hex"
-arm-none-eabi-objcopy  -O binary  Lab2_Ex2.elf  "Lab2_Ex2.bin"
+arm-none-eabi-size   LAB3.elf 
+arm-none-eabi-objdump -h -S  LAB3.elf  > "LAB3.list"
+arm-none-eabi-objcopy  -O ihex  LAB3.elf  "LAB3.hex"
+arm-none-eabi-objcopy  -O binary  LAB3.elf  "LAB3.bin"
    text	   data	    bss	    dec	    hex	filename
-   8080	     52	   1660	   9792	   2640	Lab2_Ex2.elf
+  10684	    100	   1772	  12556	   310c	LAB3.elf
 Finished building: default.size.stdout
  
-Finished building: Lab2_Ex2.bin
-Finished building: Lab2_Ex2.hex
+Finished building: LAB3.hex
+Finished building: LAB3.bin
  
-Finished building: Lab2_Ex2.list
  
+Finished building: LAB3.list
  
