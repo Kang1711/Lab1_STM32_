@@ -1,0 +1,79 @@
+15:50:22 **** Build of configuration Debug for project lab4 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/button.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/button.d" -MT"Core/Src/button.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/button.o"
+arm-none-eabi-gcc "../Core/Src/fsm_automatic.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_automatic.d" -MT"Core/Src/fsm_automatic.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_automatic.o"
+arm-none-eabi-gcc "../Core/Src/fsm_system.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/fsm_system.d" -MT"Core/Src/fsm_system.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/fsm_system.o"
+arm-none-eabi-gcc "../Core/Src/global.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/global.d" -MT"Core/Src/global.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/global.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/scheduler.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/scheduler.d" -MT"Core/Src/scheduler.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/scheduler.o"
+arm-none-eabi-gcc "../Core/Src/software_timer.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/software_timer.d" -MT"Core/Src/software_timer.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/software_timer.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+In file included from ../Core/Src/fsm_automatic.c:7:
+../Core/Inc/fsm_automatic.h:8: error: unterminated #ifndef
+    8 | #ifndef INC_FSM_AUTOMATIC_H_
+      | 
+In file included from ../Core/Src/fsm_system.c:8:
+../Core/Inc/fsm_automatic.h:8: error: unterminated #ifndef
+    8 | #ifndef INC_FSM_AUTOMATIC_H_
+      | 
+../Core/Src/button.c: In function 'getKeyInput':
+../Core/Src/button.c:23:44: error: 'b1_Pin' undeclared (first use in this function); did you mean 'l1_Pin'?
+   23 |       KeyReg0[i] = HAL_GPIO_ReadPin(GPIOB, b1_Pin);
+      |                                            ^~~~~~
+      |                                            l1_Pin
+../Core/Src/button.c:23:44: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/button.c:26:44: error: 'b2_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+   26 |       KeyReg0[i] = HAL_GPIO_ReadPin(GPIOB, b2_Pin);
+      |                                            ^~~~~~
+      |                                            l2_Pin
+../Core/Src/button.c:29:44: error: 'b3_Pin' undeclared (first use in this function); did you mean 'l3_Pin'?
+   29 |       KeyReg0[i] = HAL_GPIO_ReadPin(GPIOB, b3_Pin);
+      |                                            ^~~~~~
+      |                                            l3_Pin
+In file included from ../Core/Src/main.c:24:
+../Core/Inc/fsm_automatic.h:8: error: unterminated #ifndef
+    8 | #ifndef INC_FSM_AUTOMATIC_H_
+      | 
+../Core/Src/fsm_system.c: In function 'RunSystem':
+../Core/Src/fsm_system.c:22:5: warning: implicit declaration of function 'auto_traffic'; did you mean 'set_traffic'? [-Wimplicit-function-declaration]
+   22 |     auto_traffic();
+      |     ^~~~~~~~~~~~
+      |     set_traffic
+../Core/Src/fsm_system.c:63:31: error: 'ra_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+   63 |     HAL_GPIO_TogglePin(GPIOB, ra_Pin|rb_Pin);
+      |                               ^~~~~~
+      |                               l2_Pin
+../Core/Src/fsm_system.c:63:31: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/fsm_system.c:63:38: error: 'rb_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+   63 |     HAL_GPIO_TogglePin(GPIOB, ra_Pin|rb_Pin);
+      |                                      ^~~~~~
+      |                                      l2_Pin
+../Core/Src/fsm_system.c:103:31: error: 'ya_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+  103 |     HAL_GPIO_TogglePin(GPIOB, ya_Pin|yb_Pin);
+      |                               ^~~~~~
+      |                               l2_Pin
+make: *** [Core/Src/subdir.mk:55: Core/Src/button.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:55: Core/Src/fsm_automatic.o] Error 1
+../Core/Src/fsm_system.c:103:38: error: 'yb_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+  103 |     HAL_GPIO_TogglePin(GPIOB, ya_Pin|yb_Pin);
+      |                                      ^~~~~~
+      |                                      l2_Pin
+../Core/Src/fsm_system.c:145:31: error: 'ga_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+  145 |     HAL_GPIO_TogglePin(GPIOB, ga_Pin|gb_Pin);
+      |                               ^~~~~~
+      |                               l2_Pin
+../Core/Src/fsm_system.c:145:38: error: 'gb_Pin' undeclared (first use in this function); did you mean 'l2_Pin'?
+  145 |     HAL_GPIO_TogglePin(GPIOB, ga_Pin|gb_Pin);
+      |                                      ^~~~~~
+      |                                      l2_Pin
+make: *** [Core/Src/subdir.mk:55: Core/Src/main.o] Error 1
+make: *** [Core/Src/subdir.mk:55: Core/Src/fsm_system.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+15:50:23 Build Failed. 17 errors, 1 warnings. (took 964ms)
+

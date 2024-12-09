@@ -19,6 +19,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "scheduler.h"
 #include "global.h"
 #include "fsm_automatic.h"
 #include "fsm_system.h"
@@ -95,6 +96,8 @@ int main(void)
   MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
 	HAL_TIM_Base_Start_IT(&htim2);
+	SCH_Init();
+	SCH_Add_Task(RunSystem, 1000, 0);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -103,7 +106,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  RunSystem();
+	  SCH_Dispatch_Task();
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -249,6 +252,7 @@ static void MX_GPIO_Init(void)
 void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim ){
 	timerRun();
 	getKeyInput();
+	SCH_Update();
 }
 /* USER CODE END 4 */
 

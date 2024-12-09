@@ -9,6 +9,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Lab_VXL\Lab4_plus"/>
+			<item value="D:\LAB4\STM32"/>
 			<item value="D:\IDE\STM32"/>
 			<item value="D:\IDE\Lab2_Ex1"/>
 		</list>

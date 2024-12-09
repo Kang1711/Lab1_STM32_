@@ -22,7 +22,9 @@
 /* Define to prevent recursive inclusion -------------------------------------*/
 #ifndef __MAIN_H
 #define __MAIN_H
-
+#ifdef SCH_REPORT_ERRORS
+#define Error_port PORTA
+#endif
 #ifdef __cplusplus
 extern "C" {
 #endif
